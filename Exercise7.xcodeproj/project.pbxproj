@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A2846C014EAE1160069E054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2846BF14EAE1160069E054 /* UIKit.framework */; };
+		4A2846C214EAE1160069E054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2846C114EAE1160069E054 /* Foundation.framework */; };
+		4A2846C414EAE1160069E054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2846C314EAE1160069E054 /* CoreGraphics.framework */; };
+		4A2846CA14EAE1160069E054 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A2846C814EAE1160069E054 /* InfoPlist.strings */; };
+		4A2846CD14EAE1160069E054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2846CC14EAE1160069E054 /* main.m */; };
+		4A2846D014EAE1160069E054 /* Exercise7AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2846CF14EAE1160069E054 /* Exercise7AppDelegate.m */; };
+		4A2846D314EAE1160069E054 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2846D114EAE1160069E054 /* MainWindow.xib */; };
+		4A2846D614EAE1160069E054 /* Exercise7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2846D514EAE1160069E054 /* Exercise7ViewController.m */; };
+		4A2846D914EAE1160069E054 /* Exercise7ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2846D714EAE1160069E054 /* Exercise7ViewController.xib */; };
+		4A2846EC14EAEFD80069E054 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2846EA14EAEFD80069E054 /* ParentViewController.m */; };
+		4A2846ED14EAEFD80069E054 /* ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2846EB14EAEFD80069E054 /* ParentViewController.xib */; };
+		4AD9A8DB14EBFEF800344B4A /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A8D914EBFEF800344B4A /* ChildViewController.m */; };
+		4AD9A8DC14EBFEF800344B4A /* ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9A8DA14EBFEF800344B4A /* ChildViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A2846BB14EAE1160069E054 /* Exercise7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2846BF14EAE1160069E054 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A2846C114EAE1160069E054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A2846C314EAE1160069E054 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A2846C714EAE1160069E054 /* Exercise7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercise7-Info.plist"; sourceTree = "<group>"; };
+		4A2846C914EAE1160069E054 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A2846CB14EAE1160069E054 /* Exercise7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercise7-Prefix.pch"; sourceTree = "<group>"; };
+		4A2846CC14EAE1160069E054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A2846CE14EAE1160069E054 /* Exercise7AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise7AppDelegate.h; sourceTree = "<group>"; };
+		4A2846CF14EAE1160069E054 /* Exercise7AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise7AppDelegate.m; sourceTree = "<group>"; };
+		4A2846D214EAE1160069E054 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4A2846D414EAE1160069E054 /* Exercise7ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise7ViewController.h; sourceTree = "<group>"; };
+		4A2846D514EAE1160069E054 /* Exercise7ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise7ViewController.m; sourceTree = "<group>"; };
+		4A2846D814EAE1160069E054 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Exercise7ViewController.xib; sourceTree = "<group>"; };
+		4A2846E914EAEFD80069E054 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		4A2846EA14EAEFD80069E054 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		4A2846EB14EAEFD80069E054 /* ParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentViewController.xib; sourceTree = "<group>"; };
+		4AD9A8D814EBFEF800344B4A /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		4AD9A8D914EBFEF800344B4A /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		4AD9A8DA14EBFEF800344B4A /* ChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2846B814EAE1160069E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2846C014EAE1160069E054 /* UIKit.framework in Frameworks */,
+				4A2846C214EAE1160069E054 /* Foundation.framework in Frameworks */,
+				4A2846C414EAE1160069E054 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A2846B014EAE1160069E054 = {
+			isa = PBXGroup;
+			children = (
+				4A2846C514EAE1160069E054 /* Exercise7 */,
+				4A2846BE14EAE1160069E054 /* Frameworks */,
+				4A2846BC14EAE1160069E054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A2846BC14EAE1160069E054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A2846BB14EAE1160069E054 /* Exercise7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A2846BE14EAE1160069E054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A2846BF14EAE1160069E054 /* UIKit.framework */,
+				4A2846C114EAE1160069E054 /* Foundation.framework */,
+				4A2846C314EAE1160069E054 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A2846C514EAE1160069E054 /* Exercise7 */ = {
+			isa = PBXGroup;
+			children = (
+				4A2846CE14EAE1160069E054 /* Exercise7AppDelegate.h */,
+				4A2846CF14EAE1160069E054 /* Exercise7AppDelegate.m */,
+				4A2846D114EAE1160069E054 /* MainWindow.xib */,
+				4A2846D414EAE1160069E054 /* Exercise7ViewController.h */,
+				4A2846D514EAE1160069E054 /* Exercise7ViewController.m */,
+				4A2846D714EAE1160069E054 /* Exercise7ViewController.xib */,
+				4A2846C614EAE1160069E054 /* Supporting Files */,
+				4A2846E914EAEFD80069E054 /* ParentViewController.h */,
+				4A2846EA14EAEFD80069E054 /* ParentViewController.m */,
+				4A2846EB14EAEFD80069E054 /* ParentViewController.xib */,
+				4AD9A8D814EBFEF800344B4A /* ChildViewController.h */,
+				4AD9A8D914EBFEF800344B4A /* ChildViewController.m */,
+				4AD9A8DA14EBFEF800344B4A /* ChildViewController.xib */,
+			);
+			path = Exercise7;
+			sourceTree = "<group>";
+		};
+		4A2846C614EAE1160069E054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A2846C714EAE1160069E054 /* Exercise7-Info.plist */,
+				4A2846C814EAE1160069E054 /* InfoPlist.strings */,
+				4A2846CB14EAE1160069E054 /* Exercise7-Prefix.pch */,
+				4A2846CC14EAE1160069E054 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A2846BA14EAE1160069E054 /* Exercise7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2846DC14EAE1160069E054 /* Build configuration list for PBXNativeTarget "Exercise7" */;
+			buildPhases = (
+				4A2846B714EAE1160069E054 /* Sources */,
+				4A2846B814EAE1160069E054 /* Frameworks */,
+				4A2846B914EAE1160069E054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exercise7;
+			productName = Exercise7;
+			productReference = 4A2846BB14EAE1160069E054 /* Exercise7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A2846B214EAE1160069E054 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4A2846B514EAE1160069E054 /* Build configuration list for PBXProject "Exercise7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A2846B014EAE1160069E054;
+			productRefGroup = 4A2846BC14EAE1160069E054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A2846BA14EAE1160069E054 /* Exercise7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2846B914EAE1160069E054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2846CA14EAE1160069E054 /* InfoPlist.strings in Resources */,
+				4A2846D314EAE1160069E054 /* MainWindow.xib in Resources */,
+				4A2846D914EAE1160069E054 /* Exercise7ViewController.xib in Resources */,
+				4A2846ED14EAEFD80069E054 /* ParentViewController.xib in Resources */,
+				4AD9A8DC14EBFEF800344B4A /* ChildViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A2846B714EAE1160069E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2846CD14EAE1160069E054 /* main.m in Sources */,
+				4A2846D014EAE1160069E054 /* Exercise7AppDelegate.m in Sources */,
+				4A2846D614EAE1160069E054 /* Exercise7ViewController.m in Sources */,
+				4A2846EC14EAEFD80069E054 /* ParentViewController.m in Sources */,
+				4AD9A8DB14EBFEF800344B4A /* ChildViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A2846C814EAE1160069E054 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2846C914EAE1160069E054 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A2846D114EAE1160069E054 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2846D214EAE1160069E054 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4A2846D714EAE1160069E054 /* Exercise7ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2846D814EAE1160069E054 /* en */,
+			);
+			name = Exercise7ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A2846DA14EAE1160069E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A2846DB14EAE1160069E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4A2846DD14EAE1160069E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise7/Exercise7-Prefix.pch";
+				INFOPLIST_FILE = "Exercise7/Exercise7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A2846DE14EAE1160069E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise7/Exercise7-Prefix.pch";
+				INFOPLIST_FILE = "Exercise7/Exercise7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2846B514EAE1160069E054 /* Build configuration list for PBXProject "Exercise7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2846DA14EAE1160069E054 /* Debug */,
+				4A2846DB14EAE1160069E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2846DC14EAE1160069E054 /* Build configuration list for PBXNativeTarget "Exercise7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2846DD14EAE1160069E054 /* Debug */,
+				4A2846DE14EAE1160069E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A2846B214EAE1160069E054 /* Project object */;
+}
