@@ -14,8 +14,6 @@
 		4A2846CD14EAE1160069E054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2846CC14EAE1160069E054 /* main.m */; };
 		4A2846D014EAE1160069E054 /* Exercise7AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2846CF14EAE1160069E054 /* Exercise7AppDelegate.m */; };
 		4A2846D314EAE1160069E054 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2846D114EAE1160069E054 /* MainWindow.xib */; };
-		4A2846D614EAE1160069E054 /* Exercise7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2846D514EAE1160069E054 /* Exercise7ViewController.m */; };
-		4A2846D914EAE1160069E054 /* Exercise7ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2846D714EAE1160069E054 /* Exercise7ViewController.xib */; };
 		4A2846EC14EAEFD80069E054 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2846EA14EAEFD80069E054 /* ParentViewController.m */; };
 		4A2846ED14EAEFD80069E054 /* ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2846EB14EAEFD80069E054 /* ParentViewController.xib */; };
 		4AD9A8DB14EBFEF800344B4A /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A8D914EBFEF800344B4A /* ChildViewController.m */; };
@@ -34,9 +32,6 @@
 		4A2846CE14EAE1160069E054 /* Exercise7AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise7AppDelegate.h; sourceTree = "<group>"; };
 		4A2846CF14EAE1160069E054 /* Exercise7AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise7AppDelegate.m; sourceTree = "<group>"; };
 		4A2846D214EAE1160069E054 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4A2846D414EAE1160069E054 /* Exercise7ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise7ViewController.h; sourceTree = "<group>"; };
-		4A2846D514EAE1160069E054 /* Exercise7ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise7ViewController.m; sourceTree = "<group>"; };
-		4A2846D814EAE1160069E054 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Exercise7ViewController.xib; sourceTree = "<group>"; };
 		4A2846E914EAEFD80069E054 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
 		4A2846EA14EAEFD80069E054 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
 		4A2846EB14EAEFD80069E054 /* ParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentViewController.xib; sourceTree = "<group>"; };
@@ -92,9 +87,6 @@
 				4A2846CE14EAE1160069E054 /* Exercise7AppDelegate.h */,
 				4A2846CF14EAE1160069E054 /* Exercise7AppDelegate.m */,
 				4A2846D114EAE1160069E054 /* MainWindow.xib */,
-				4A2846D414EAE1160069E054 /* Exercise7ViewController.h */,
-				4A2846D514EAE1160069E054 /* Exercise7ViewController.m */,
-				4A2846D714EAE1160069E054 /* Exercise7ViewController.xib */,
 				4A2846C614EAE1160069E054 /* Supporting Files */,
 				4A2846E914EAEFD80069E054 /* ParentViewController.h */,
 				4A2846EA14EAEFD80069E054 /* ParentViewController.m */,
@@ -166,7 +158,6 @@
 			files = (
 				4A2846CA14EAE1160069E054 /* InfoPlist.strings in Resources */,
 				4A2846D314EAE1160069E054 /* MainWindow.xib in Resources */,
-				4A2846D914EAE1160069E054 /* Exercise7ViewController.xib in Resources */,
 				4A2846ED14EAEFD80069E054 /* ParentViewController.xib in Resources */,
 				4AD9A8DC14EBFEF800344B4A /* ChildViewController.xib in Resources */,
 			);
@@ -181,7 +172,6 @@
 			files = (
 				4A2846CD14EAE1160069E054 /* main.m in Sources */,
 				4A2846D014EAE1160069E054 /* Exercise7AppDelegate.m in Sources */,
-				4A2846D614EAE1160069E054 /* Exercise7ViewController.m in Sources */,
 				4A2846EC14EAEFD80069E054 /* ParentViewController.m in Sources */,
 				4AD9A8DB14EBFEF800344B4A /* ChildViewController.m in Sources */,
 			);
@@ -204,14 +194,6 @@
 				4A2846D214EAE1160069E054 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		4A2846D714EAE1160069E054 /* Exercise7ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A2846D814EAE1160069E054 /* en */,
-			);
-			name = Exercise7ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,6 +241,7 @@
 				GCC_PREFIX_HEADER = "Exercise7/Exercise7-Prefix.pch";
 				INFOPLIST_FILE = "Exercise7/Exercise7-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,6 +255,7 @@
 				GCC_PREFIX_HEADER = "Exercise7/Exercise7-Prefix.pch";
 				INFOPLIST_FILE = "Exercise7/Exercise7-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

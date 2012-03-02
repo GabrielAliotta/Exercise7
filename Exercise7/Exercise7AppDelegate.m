@@ -7,8 +7,6 @@
 //
 
 #import "Exercise7AppDelegate.h"
-
-#import "Exercise7ViewController.h"
 #import "ParentViewController.h"
 
 @interface Exercise7AppDelegate ()
@@ -22,9 +20,6 @@
 
 @synthesize window=_window;
 @synthesize nc = _nc;
-
-@synthesize viewController=_viewController;
-
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -86,7 +81,6 @@
 {
     [_nc release];
     [_window release];
-    [_viewController release];
     [super dealloc];
 }
 
