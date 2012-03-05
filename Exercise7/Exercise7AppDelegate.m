@@ -9,31 +9,23 @@
 #import "Exercise7AppDelegate.h"
 #import "ParentViewController.h"
 
-@interface Exercise7AppDelegate ()
-
-@property (retain, nonatomic) UINavigationController *nc;
-
-@end
-
 @implementation Exercise7AppDelegate
 
 
 @synthesize window=_window;
-@synthesize nc = _nc;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
 
-    _nc = [[UINavigationController alloc] init];
+    UINavigationController *nc = [[[UINavigationController alloc] init] autorelease];
     
-    ParentViewController *pvc = [[ParentViewController alloc] initWithNibName:@"ParentViewController" bundle:nil];
+    ParentViewController *pvc = [[[ParentViewController alloc] initWithNibName:@"ParentViewController" bundle:nil] autorelease];
     pvc.title = @"Parent View";
-    [_nc pushViewController:pvc animated:NO];
-    [pvc release];
+    [nc pushViewController:pvc animated:NO];
     
-    [_window addSubview:_nc.view];
+    [_window addSubview:nc.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -79,7 +71,6 @@
 
 - (void)dealloc
 {
-    [_nc release];
     [_window release];
     [super dealloc];
 }
